@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.done span {
+    color: green;
+}
+
+.failed span {
+    color: red;
+    text-decoration: line-through;
+}
+
+li div {
+    width: 90px;
+    text-align: center;
+}
+
+.done button,
+.failed button {
+    transform: scaleY(-1);
+}
